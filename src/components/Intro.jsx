@@ -9,7 +9,7 @@ const Intro = () => {
         {/* Left Side */}
         <div className="i-name text-center md:text-left">
           <span className="block text-4xl font-bold text-gray-800 dark:text-white">Hi, I am</span>
-          <span className="block text-5xl font-extrabold text-blue-600 dark:text-blue-400">Your Name</span>
+          <span className="block text-5xl font-extrabold text-blue-600 dark:text-blue-400">Vaibhav Gupta</span>
           <span className="block text-2xl text-gray-600 dark:text-gray-300">Full Stack Developer</span>
         </div>
 

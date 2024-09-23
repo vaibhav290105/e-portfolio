@@ -41,9 +41,14 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <button className="button n-button ml-4 bg-blue-500 text-white px-4 py-2 rounded">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="button n-button ml-4 bg-blue-500 text-white px-4 py-2 rounded"
+            >
             Contact Me
-          </button>
+            </Link>
           <a
             href="/resume vaibhav.pdf"  // Correct path to the file in the public folder
             download="Your_Resume.pdf"  // Specify the download file name
